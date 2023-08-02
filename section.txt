@@ -1,0 +1,48 @@
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Dot Tech</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero" target="_blank">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about" target="_blank">About</a></li>
+          <li><a class="nav-link scrollto" href="#services" target="_blank">Services</a></li>
+          <li><a class="nav-link scrollto" href="#contact" target="_blank">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about" target="_blank">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <!-- Swap the order of the columns -->
+        <div class="col-lg-6 order-2 order-lg-1 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+          <br><br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h1>"Empowering Innovation, Enabling Success"</h1>
+          <h2>Fostering creative ideas and providing solutions that drive success for our clients and partners.</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a><br><br><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  
