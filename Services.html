@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./Services_files/style.css">
 </head>
+
 <body>
   <div class="container">
     <h1 class="title">WHAT WE DO</h1>
-    <p class="description1">We Run All Kinds of Service that determines your Success</p>  
+    <p class="description1">We Run All Kinds of Service that determines your Success</p>
     <ul class="services-list">
       <li class="item">App Development</li>
       <div class="description">
@@ -17,22 +21,22 @@
 
       <li class="item">Website Development</li>
       <div class="description">
-        Description for Item 1.
+        Description for Item 2.
       </div>
 
       <li class="item">Social Media Marketing</li>
       <div class="description">
-        Description for Item 1.
+        Description for Item 3.
       </div>
 
       <li class="item">Search Engine Optimization (SEO)</li>
       <div class="description">
-        Description for Item 1.
+        Description for Item 4.
       </div>
 
       <li class="item">Backend Development</li>
       <div class="description">
-        Description for Item 1.
+        Description for Item 5.
       </div>
 
     </ul>
@@ -40,7 +44,7 @@
       // Your JavaScript code here
       const items = document.querySelectorAll('.item');
       const descriptions = document.querySelectorAll('.description');
-  
+
       items.forEach((item, index) => {
         item.addEventListener('click', () => {
           descriptions.forEach((description, i) => {
@@ -56,13 +60,17 @@
     <br>
     <button class="more-services-button">MORE SERVICES +</button>
   </div>
-      <img src="./Services_files/service.png" alt="Services" class="custom-image">
+
   <div>
+    <img src="./Services_files/service.png" alt="Services" class="custom-image">
+  </div>
+
+  <div class="service-container">
     <img src="./Services_files/01.png" alt="Image 1" class="rounded-image1">
     <img src="./Services_files/02.png" alt="Image 2" class="rounded-image2">
     <img src="./Services_files/03.png" alt="Image 3" class="rounded-image3">
     <img src="./Services_files/04.png" alt="Image 4" class="rounded-image4">
-  </div><br><br><br>
+  </div>
+</body>
 
-
-</body></html>
+</html>
