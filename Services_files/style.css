@@ -1,0 +1,124 @@
+body {
+  margin: 0px;
+  padding-right: 300px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #151515; 
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px;
+  padding-right: 150px;
+  text-align: left;
+}
+
+.custom-image {
+  position: absolute;
+  top: 150px; 
+  left: 75%; 
+  transform: translateX(-50%); 
+  width: 300px; 
+}
+
+.title {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.description1 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.description {
+  display: none;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #151515;
+  
+}
+
+.services-list li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.services-list li:hover {
+  color: #17e080;
+  cursor: pointer;
+}
+
+.more-services {
+  font-size: 15px;
+  color: #17e080;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+.more-services-button {
+  background-color: #17e080;
+  color: #191919;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.rounded-image1 {
+  position: absolute;
+  top: 550px; 
+  left: 0%; 
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  margin: 20px;
+}
+
+.rounded-image1:hover{
+  transform: scale(1.1);
+  cursor: pointer;  
+}
+
+.rounded-image2 {
+  position: absolute;
+  top: 550px; 
+  left: 25%; 
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  margin: 20px;
+}
+
+.rounded-image3 {
+  position: absolute;
+  top: 550px; 
+  left: 50%; 
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  margin: 20px;
+}
+
+.rounded-image4 {
+  position: absolute;
+  top: 550px; 
+  left: 75%; 
+  width: 299px;
+  height: 300px;
+  border-radius: 5%;
+  margin: 20px;
+}
