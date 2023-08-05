@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 
-<html lang="en">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./Services_files/style.css">
 </head>
-
 <body>
   <div class="container">
     <h1 class="title">WHAT WE DO</h1>
-    <p class="description1">We Run All Kinds of Service that determines your Success</p>
+    <p class="description1">We Run All Kinds of Service that determines your Success</p>  
     <ul class="services-list">
       <li class="item">App Development</li>
       <div class="description">
-        Description for Item 1.
+        Our skilled team of developers will create customized 
+        and user-friendly applications that cater to your specific needs. 
+        Whether it's a mobile app for iOS or Android, or even cross-platform solutions, 
+        we'll bring your ideas to life with seamless functionality and a visually appealing design.
       </div>
 
       <li class="item">Website Development</li>
       <div class="description">
-        Description for Item 2.
+        We specialize in crafting engaging and responsive websites that make a strong online presence for your business. 
+        Our websites are not only visually appealing but also optimized for performance and user experience. 
+        From simple informational sites to complex e-commerce platforms, we'll design and develop a site that captures your brand's essence.
       </div>
 
       <li class="item">Social Media Marketing</li>
       <div class="description">
-        Description for Item 3.
+        Our social media experts will strategically navigate the dynamic landscape of social platforms to increase your brand's visibility, 
+        engagement, and reach.We'll create and manage impactful campaigns, curate compelling content, 
+        and interact with your audience to foster a loyal community and drive conversions.
       </div>
 
       <li class="item">Search Engine Optimization (SEO)</li>
       <div class="description">
-        Description for Item 4.
+        Boost your online visibility with our comprehensive SEO services. Our team will optimize your website's content, structure, 
+        and backend elements to improve its search engine ranking. By targeting relevant keywords and implementing industry best practices, 
+        we'll drive organic traffic and enhance your site's authority.
       </div>
 
       <li class="item">Backend Development</li>
       <div class="description">
-        Description for Item 5.
+        The backbone of your digital presence lies in a robust and secure backend. 
+        Our backend development team will create the server-side logic, databases, and APIs that power your applications and websites. 
+        We ensure seamless data management, high performance, and scalability to support your business processes.
       </div>
 
     </ul>
     <script>
-      // Your JavaScript code here
       const items = document.querySelectorAll('.item');
       const descriptions = document.querySelectorAll('.description');
-
+  
       items.forEach((item, index) => {
         item.addEventListener('click', () => {
           descriptions.forEach((description, i) => {
@@ -60,17 +66,13 @@
     <br>
     <button class="more-services-button">MORE SERVICES +</button>
   </div>
-
+      <img src="./Services_files/service.png" alt="Services" class="custom-image">
   <div>
-    <img src="./Services_files/service.png" alt="Services" class="custom-image">
-  </div>
-
-  <div class="service-container">
     <img src="./Services_files/01.png" alt="Image 1" class="rounded-image1">
     <img src="./Services_files/02.png" alt="Image 2" class="rounded-image2">
     <img src="./Services_files/03.png" alt="Image 3" class="rounded-image3">
     <img src="./Services_files/04.png" alt="Image 4" class="rounded-image4">
-  </div>
-</body>
+  </div><br><br><br>
 
-</html>
+
+</body></html>
