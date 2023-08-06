@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Favicons -->
+    <link href="assets/img/icons8-tech-50.png" rel="icon">
+    
+    <link rel="stylesheet" href="./assets/css/ourworks/style.css">
+  </head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>DOT</span>TECH
+            </div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="Services.html">Services</a>
+                <a href="index.html#footer">Contact</a>
+            </div>
+        </nav>
+
+        <section class="h-text">
+            <h1>Our Work</h1>
+            <h3>Dive into examples of our exemplary work</h3>
+        </section>
+    </header>
+
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <div class="pro-container">
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\Hybrid-Mobile-App-Money-Transfer-Platform-thumbnail.jpg" alt="">
+                <div class="des">
+                    <span>Mobile App</span>
+                    <h5>Mobile Money Transfer App Development</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\Hero-Case-Study-IoT-ELD-Mobile-App-Thumbnail.jpg" alt="">
+                <div class="des">
+                    <span>Mobile App</span>
+                    <h5>ELD Fleet Management Mobile App Development</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\Mobile-Web-Indoor-Mapping-Navigation-App_Thumbnail.jpg" alt="">
+                <div class="des">
+                    <span>Mobile App</span>
+                    <h5>Mobile & Web Indoor Mapping & Navigation App Development</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\Tickets-thumbnail.jpg" alt="">
+                <div class="des">
+                    <span>Mobile App</span>
+                    <h5>Online Event Ticket Reservation App</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\Hybrid-Mobile-App-Money-Transfer-Platform-thumbnail.jpg" alt="">
+                <div class="des">
+                    <span>Mobile App</span>
+                    <h5>Mobile Money Transfer App Development</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\Data-Warehouse-System-thumbnail.jpg" alt="">
+                <div class="des">
+                    <span>Website</span>
+                    <h5>Cloud-Based Data Warehouse System</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\Real-time-Fraud-Detection-and-Prevention-System-thumbnail.jpg" alt="">
+                <div class="des">
+                    <span>Website</span>
+                    <h5>Real-time Bank Fraud Detection and Prevention Software</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\Digital-Ad-Inventory-Management-Solution-thumbnail.jpg" alt="">
+                <div class="des">
+                    <span>Website</span>
+                    <h5>Real-time Digital Ad Inventory Management Software Modernization</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\fatos-bytyqi-Agx5_TLsIf4-unsplash.jpg" alt="">
+                <div class="des">
+                    <span>Website</span>
+                    <h5>Machine Learning Driven Healthcare Monitoring System</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\marketingg.jpg" alt="">
+                <div class="des">
+                    <span>Social Media Marketing</span>
+                    <h5>Marketing Website</h5>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="assets\img\ourworks\img\seo-gbc87f637c_1280.jpg" alt="">
+                <div class="des">
+                    <span>SEO</span>
+                    <h5>Search It Here..</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+
+    <script type="text/javascript">
+        $('.portfolio-item').isotope({
+            // options
+            itemSelector: '.item',
+            layoutMode: 'fitRows'
+        });
+
+        $('.portfolio-menu ul li').click(function () {
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        var selector = $(this).attr('data-filter');
+        $('.portfolio-item').isotope({
+            filter: selector
+        });
+        return false;
+
+
+
+        // it stores item into selector, and filter is applied....
+
+
+    </script>
+</body>
+
+</html>
