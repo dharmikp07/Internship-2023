@@ -60,6 +60,7 @@ body {
 .services-list li {
   font-size: 25px;
   margin-bottom: 20px;
+  transition: 0.3s;
 }
 
 .services-list li:hover {

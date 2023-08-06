@@ -86,9 +86,12 @@ h6 {
   color: #07e13d;
 }
 
-#header .logo img {
-  max-height: 40px;
+#tech {
+  color: white;
 }
+#dot {
+    color: rgb(2, 248, 2);
+ }
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -687,7 +690,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #4e4d4c;
   color: #fff;
   text-decoration: none;
 }
