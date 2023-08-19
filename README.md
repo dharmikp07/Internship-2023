@@ -37,10 +37,13 @@ localhost:80/dottech/
 localhost:80/phpmyadmin/
 ``` 
 2. Create a database, here **dottech**
+   <br>
 ![Screenshot-3](/assets/img/screenshots/Database.png)
 
 3. Inside dottech database, Create a table named **contact**
+   <br>
 ![Screenshot-4](/assets/img/screenshots/table_structure.png)
 4. Now whenever user enter their contact information & message, It will be saved here
+   <br>
 ![Screenshot-5](/assets/img/screenshots/db_output.png)
 
